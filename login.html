@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Registration</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="container">
+        <img class="rbu-img" src="https://www.rknec.edu/wp-content/uploads/2024/05/favicon-logo.gif" alt="">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="sub">
+                <div class="forgot">
+                    <a href="#pass"> Forgot Password? </a>
+                </div>
+                <button type="submit" class="submit-btn"><a href="index.html">Login</a></button>
+            </div>
+
+        </form>
+        <p id="confirmationMessage" class="hidden">Thank you for login! We'll stay in touch.</p>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>
